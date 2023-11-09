@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("Hello this is the Andman!"),console.log("This is another logged line"),console.log(30)})();
+(()=>{"use strict";const t=new class{constructor(t){this.parent=t,this.parent.innerHTML="",this.parent.id="canvas",Object.assign(this.parent.style,{display:"grid",gridTemplateColumns:"repeat(12, 1fr)",gridTemplateRows:"repeat(12, 1fr)",height:"100vh",columnGap:"5px",rowGap:"5px",aspectRatio:"1 / 1"})}}(document.body);console.log(t)})();
