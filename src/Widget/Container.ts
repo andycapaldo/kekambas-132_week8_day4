@@ -15,7 +15,7 @@ export default abstract class Container implements Containerable{
         return {
             backgroundColor: this.backgroundColor,
             borderColor: this.borderColor,
-            borderRadius: this.borderRadius,
+            borderRadius: this.borderRadius, 
             borderWidth: this.borderWidth,
             borderStyle: this.borderStyle,
             zIndex: this.zIndex
